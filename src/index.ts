@@ -1,12 +1,17 @@
-import { soma } from "./calc";
+import { sumOnly } from "./domain/calc";
 
-let printMessage = (msg: string): void =>
-    console.log(`Mensagem: ${msg}`);
-
-let msg = "Hello, TypeScript";
+let printMessage = (msg: string): void => console.log(`Mensagem: ${msg}`);
+let msg = "Olá Switch-QA";
 printMessage(msg);
-
-//debugger;
-
-let total=soma(1,2,3,4);
+let list: number[] = [1, 2, 3, 4];
+let total = sumOnly(...list);
 printMessage(total.toString());
+
+if (total > 0) printMessage(">0");
+else {
+    printMessage("<=0");
+    printMessage("  <=0");
+}
+
+// student one: please replace by console.log
+// student two: add to calc.ts a function sumWithDiscount(disc, valores)
