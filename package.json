@@ -17,11 +17,7 @@
     "tsc-watch": "^4.2.9",
     "typescript": "^4.3.2"
   },
-<<<<<<< HEAD
-  "dependencies": {}
-=======
   "dependencies": {
     "babel": "^6.23.0"
   }
->>>>>>> 167c1869fc29a0aab4ace30ffc79ed79a1a84dc0
 }
