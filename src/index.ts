@@ -9,8 +9,8 @@ printMessage(total.toString());
 
 if (total > 0) printMessage(">0");
 else {
-    printMessage("<=0");
-    printMessage("  <=0");
+    printMessage(" <=0 !!" );
+
 }
 
 // student one: please replace by console.log
