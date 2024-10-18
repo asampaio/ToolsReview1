@@ -1,0 +1,23 @@
+ 1163  cd ../aux
+ 1164  git clone -b b1 --single-branch https://github.com/asampaio/ToolsReview1.git
+ 1165  ls -l
+ 1166  cd ToolsReview1
+ 1167  ls -l
+ 1168  ls -al
+ 1169  git branch
+ 1170  git branch --all
+ 1171  copy b1Readme.md auxReadme.md
+ 1172  cp b1Readme.md auxReadme.md
+ 1173  ls
+ 1174  git c "doc: add auxReadme in aux dir"
+ 1175  git commit
+ 1176  git remote -v
+ 1177  git remote show origin
+ 1178  git branch -a
+ 1179  git push origin
+ 1180  git fetch origin
+ 1181  git merge origin
+ 1182  git merge 
+ 1183  git rebase
+ 1184  git branch -d
+ 1185  git branch -d -h
